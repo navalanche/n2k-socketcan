@@ -1,0 +1,11 @@
+[package]
+name = "n2k-socketcan"
+description="Provides a n2k communication channel on top of socketcan (Linux only)"
+homepage="http://github.com/navalanche/n2k-socketcan"
+repository="https://github.com/navalanche/n2k-socketcan"
+license="AGPL-3.0"
+version = "0.1.0"
+authors = ["Erwin Gribnau <erwin@gribnau.org>"]
+
+[dependencies]
+n2k-base = "0.1"
