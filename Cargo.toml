@@ -9,3 +9,4 @@ authors = ["Erwin Gribnau <erwin@gribnau.org>"]
 
 [dependencies]
 n2k-base = "0.1"
+socketcan = "*"
