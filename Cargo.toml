@@ -1,6 +1,6 @@
 [package]
 name = "n2k-socketcan"
-description="Provides a n2k communication channel on top of socketcan (Linux only)"
+description="Wrapper around the socketcan crate to read and write n2k messages. (Linux only)"
 homepage="http://github.com/navalanche/n2k-socketcan"
 repository="https://github.com/navalanche/n2k-socketcan"
 license="AGPL-3.0"
@@ -8,5 +8,8 @@ version = "0.1.0"
 authors = ["Erwin Gribnau <erwin@gribnau.org>"]
 
 [dependencies]
-n2k-base = "0.1"
-socketcan = "*"
+n2k-base = "0.3"
+socketcan = "1.7"
+
+[patch.crates-io]
+n2k-base = { path = "../n2k-base"}
